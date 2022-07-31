@@ -68,6 +68,12 @@ ul {
   cursor: pointer;
   font-size: 16px;
 }
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 /* -------visually-hidden-title--------- */
 .benefits-title,
 .examples-title {
@@ -166,11 +172,6 @@ ul {
 
 /* -----------section benefits-------------- */
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
-
 .benefits-list {
   display: flex;
   column-gap: 30px;
@@ -197,6 +198,9 @@ ul {
 
 /*-----------------section what-we-do--------*/
 
+.what-we-do {
+  padding-top: 0;
+}
 .what-we-do-title {
   font-size: 36px;
   line-height: 1.17;
